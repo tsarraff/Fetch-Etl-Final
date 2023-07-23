@@ -61,7 +61,7 @@ To make this production ready we would have to add:
 ## Scale With A Growing Dataset
 1. To scale this application with a growing dataset we can first do vertical scaling. This approach can handle moderate growth in the dataset and processing requirements because we will be adding more cpu, memory, etc.
 2. If vertical scaling does not work we can do horizontal scaling. This is where you add more servers or nodes to the ETL cluster. Horizontal scaling allows you to distribute the workload across multiple machines, providing better performance and higher capacity. This allows us to process the data concurrently.
-3. Optimize the ETL code. My optimizing the code we can have better performance and efficiency, especially in the data transformation and loading steps.
+3. Optimize the ETL code. By optimizing the code we can have better performance and efficiency, especially in the data transformation and loading steps.
 
 
 ## PII Recovery
